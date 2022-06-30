@@ -1,4 +1,11 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: 'Output text using put function'
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
