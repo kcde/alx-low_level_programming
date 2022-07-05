@@ -7,8 +7,9 @@
  * Return : 0.
  */
 int main(void)
-int i;
+
 {
+int i;
 char text[] = "_putchar";
 for (i = 0; i < strlen(text); i++)
 {
