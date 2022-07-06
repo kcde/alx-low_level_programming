@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
+
 /**
- * main - Check descriptiom
- * Description:  It print the word putchar.
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
  * Return: 0.
- *
  */
 int main(void)
 {
-int i;
-char text[8] = "_putchar";
-for (i = 0; i < 8; i++)
+	char word[8] = "_putchar";
+	int i;
 
-	_putchar(text[i]);
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
+	_putchar('\n');
 
-
-_putchar('\n');
-return (0);
+	return (0);
 }
