@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - tCheck descriptiom
- * Description: print putchar.
- * Return : 0.
+ * main - Check descriptiom
+ * Description:  It print the word putchar.
+ * Return: 0.
+ *
  */
 int main(void)
-
 {
 int i;
 char text[8] = "_putchar";
